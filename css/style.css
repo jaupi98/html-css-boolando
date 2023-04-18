@@ -72,6 +72,9 @@ main{
     top: 0;
     right: 0;
 }
+.heart:hover{
+    color: red;
+}
 /* .firma{
     
 } */
