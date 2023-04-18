@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .container{
@@ -12,12 +13,91 @@
     display: flex;
     justify-content: space-around;
 }
-img{
+.logo-img{
     height: 30px;
 }
 .header-info{
     font-size: 15px;
     line-height: 30px;
-    
     color: white;
+}
+main{
+    
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.row-main{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.full-img{
+    width: 100%;
+}
+
+.col-6{
+    width: calc(100%/3 - 20px);
+    margin: 10px 10px;
+}
+.square{
+    margin-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    background-color: white;
+
+}
+.position-relative{
+    position: relative;
+}
+.first-immage{
+    display: block;
+}
+.second-immage{
+    display: none;
+}
+
+.position-relative:hover .second-immage {
+    display: block;
+
+}
+.position-relative:hover .first-immage{
+    display: none;
+
+}
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* .firma{
+    
+} */
+.stile{
+    font-weight: bold;
+}
+.sconto{
+    color: red;
+    
+}
+.no-sconto{
+    text-decoration: line-through;
+}
+.contenitore-sconto-sostenibilita{
+    position: absolute;
+    top: 460px;
+}
+.sconto-contenitore{
+    padding: 5px;
+    color:white;
+    background-color: red;
+    font-weight: bold;
+}
+.sconto-sostenibilita{
+    padding: 5px;
+    color:white;
+    background-color:green;
+    font-weight: bold;
 }
